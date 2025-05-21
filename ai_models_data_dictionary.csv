@@ -1,0 +1,34 @@
+Column,Description
+System,Name of the AI system or model
+Domain,"Domain of application (e.g., Language, Vision)"
+Task,"Type of AI task performed (e.g., generation, classification)"
+Authors,Authors or creators of the model
+Model accessibility,"How accessible the model is (e.g., open weights, API only)"
+Link,URL to the model or publication
+Citations,Number of citations (if known)
+Reference,Publication or paper title
+Publication date,Date when the model was released or published
+Organization,Releasing institution or company
+Parameters,Number of trainable parameters (in billions)
+Parameters notes,Additional notes about parameters
+Training compute (FLOP),Estimated floating point operations used for training
+Training compute notes,Notes on how training compute was estimated
+Training dataset,Dataset(s) used for training
+Training dataset notes,Additional notes about datasets
+Training dataset size (datapoints),Size of the dataset used (in number of datapoints)
+Dataset size notes,Notes about dataset size
+Training time (hours),Total time taken for training the model (in hours)
+Training hardware,"Hardware used during training (e.g., GPU models)"
+Abstract,Summary of the model or publication
+Country (from Organization),Country associated with the organization
+Base model,If the model was finetuned from another base model
+Finetune compute (FLOP),Compute used during finetuning
+Finetune compute notes,Notes on finetune compute
+Hardware quantity,Quantity of hardware used
+Training code accessibility,Whether the training code is accessible
+Dataset accessibility,Whether the dataset is accessible
+Accessibility notes,Additional access-related notes
+Organization categorization (from Organization),"Type of organization (e.g., Industry, Academic)"
+Training power (Watts) ,Estimated training power draw
+Training energy (kWh) ,Estimated total training energy consumed
+Carbon Emissions from training (lb),Carbon emissions produced during training (in pounds)

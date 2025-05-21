@@ -1,0 +1,30 @@
+Column,Description
+timestamp,Time of measurement for the emissions logging event
+project_name,Name of the ML project or model run
+run_id,Unique identifier for a single experiment run
+duration,Duration of the run in hours
+emissions,Estimated carbon emissions from the run in kg CO₂e
+emissions_rate,Emissions rate per hour
+cpu_power,Power consumed by CPU during run (in watts)
+gpu_power,Power consumed by GPU during run (in watts)
+ram_power,Power consumed by RAM during run (in watts)
+cpu_energy,Energy consumed by CPU (in kWh)
+gpu_energy,Energy consumed by GPU (in kWh)
+ram_energy,Energy consumed by RAM (in kWh)
+energy_consumed,Total energy consumed (in kWh)
+country_name,Country where the experiment was conducted
+country_iso_code,ISO code of the country
+region,Region within the country
+cloud_provider,Cloud provider used (if applicable)
+cloud_region,Specific cloud region (if applicable)
+os,Operating system used during the run
+python_version,Version of Python used
+cpu_count,Number of CPUs available
+cpu_model,Model of CPU used
+gpu_count,Number of GPUs used
+gpu_model,Model of GPU used
+longitude,Longitude of data center or location of the run
+latitude,Latitude of data center or location of the run
+ram_total_size,Total size of RAM available (in GB)
+tracking_mode,"Method used for emissions tracking (e.g., machine)"
+on_cloud,Indicates if run was on the cloud (Y/N)
